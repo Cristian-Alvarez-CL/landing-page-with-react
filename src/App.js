@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="container">
       <Navbar />
-      <div class="container">
+      <div className="container">
         <Jumbotron
           titulo="Hola Soy un Jumbotron"
           nameBtn="Yo Soy Tu Boton"
           contenido="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat."
         />
-        <div class="row text-center">
+        <div className="row text-center">
           <Card
             tituloCard="Soy tarjeta 1"
             nameBtn="Presiona Aqui"
